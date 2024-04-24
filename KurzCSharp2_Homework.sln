@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2_stars", "L2_stars\L2_sta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2_archer", "L2_archer\L2_archer.csproj", "{10CF29EB-BE51-4C7F-B50C-92EECC9E9AA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2_riddler", "L2_riddler\L2_riddler.csproj", "{3AD3443F-E23A-495C-9F7E-7FDCC05D0378}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{10CF29EB-BE51-4C7F-B50C-92EECC9E9AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10CF29EB-BE51-4C7F-B50C-92EECC9E9AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10CF29EB-BE51-4C7F-B50C-92EECC9E9AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD3443F-E23A-495C-9F7E-7FDCC05D0378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD3443F-E23A-495C-9F7E-7FDCC05D0378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD3443F-E23A-495C-9F7E-7FDCC05D0378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD3443F-E23A-495C-9F7E-7FDCC05D0378}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
