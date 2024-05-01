@@ -13,25 +13,15 @@
         static void Main(string[] args)
         {
             int enteredNumber = 10;
-
+            bool guessed = false;
+            
             Console.WriteLine("Hádej celé číslo:");
 
-            while (true)
+            while (!guessed)
             {
                 int guessedNumber = getNumber(Console.ReadLine());
-
-                if (guessedNumber == enteredNumber) 
-                {
-                    Console.WriteLine("To je správně!");
-                    return;
-                } else if (guessedNumber > enteredNumber)
-                {
-                    Console.WriteLine("Číslo je větší, hádej znovu:");
-                }
-                else
-                {
-                    Console.WriteLine("Číslo je menší, hádej znovu:");
-                }
+                guessed = compareNumber(guessedNumber, enteredNumber);
+                
             }
         }
 
@@ -50,6 +40,25 @@
                 }
             }
             return result;
+        }
+
+        public static bool compareNumber(int tipNum, int realNum)
+        {
+            if (tipNum == realNum)
+            {
+                Console.WriteLine("To je správně!");
+                return true;
+            }
+            else if (tipNum > realNum)
+            {
+                Console.WriteLine("Číslo je větší, hádej znovu:");
+                return false;
+            }
+            else
+            {
+                Console.WriteLine("Číslo je menší, hádej znovu:");
+                return false;
+            }
         }
     }
 }
