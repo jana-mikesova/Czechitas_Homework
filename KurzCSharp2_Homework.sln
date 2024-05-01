@@ -5,11 +5,13 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L2_sumUp", "L2_sumUp\L2_sumUp.csproj", "{6718EAB4-7147-4BFB-8E0D-9196A70D81E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2_stars", "L2_stars\L2_stars.csproj", "{BFD126A9-0A2E-4814-AECE-F3443E59F2A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L2_stars", "L2_stars\L2_stars.csproj", "{BFD126A9-0A2E-4814-AECE-F3443E59F2A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2_archer", "L2_archer\L2_archer.csproj", "{10CF29EB-BE51-4C7F-B50C-92EECC9E9AA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L2_archer", "L2_archer\L2_archer.csproj", "{10CF29EB-BE51-4C7F-B50C-92EECC9E9AA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2_riddler", "L2_riddler\L2_riddler.csproj", "{3AD3443F-E23A-495C-9F7E-7FDCC05D0378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L2_riddler", "L2_riddler\L2_riddler.csproj", "{3AD3443F-E23A-495C-9F7E-7FDCC05D0378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3_strings", "L3_strings\L3_strings.csproj", "{FAD2B33F-EE3C-4CC0-9BDB-968299032DB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3AD3443F-E23A-495C-9F7E-7FDCC05D0378}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AD3443F-E23A-495C-9F7E-7FDCC05D0378}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AD3443F-E23A-495C-9F7E-7FDCC05D0378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD2B33F-EE3C-4CC0-9BDB-968299032DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD2B33F-EE3C-4CC0-9BDB-968299032DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD2B33F-EE3C-4CC0-9BDB-968299032DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD2B33F-EE3C-4CC0-9BDB-968299032DB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
