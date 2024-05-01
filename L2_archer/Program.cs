@@ -13,7 +13,11 @@ namespace L2_archer
     {
         static void Main(string[] args)
         {
-           Archer archer = new Archer(5);
+           Archer archer = new Archer(1);
+
+            archer.getAmountOfArrows();
+            archer.addArrow(5);
+            archer.removeArrow(2);
 
             do
             {

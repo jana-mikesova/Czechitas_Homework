@@ -17,6 +17,11 @@ namespace L2_archer
 
         public Archer(int amountOfArrows)
         {
+            if (amountOfArrows < 0) 
+            {
+                amountOfArrows = 0;
+            }
+
             AmountOfArrows = amountOfArrows;
         }
 
@@ -31,5 +36,30 @@ namespace L2_archer
             }
             AmountOfArrows--;
         }
+
+        public void addArrow(int amount)
+        {
+            AmountOfArrows += amount;
+            Console.WriteLine($"Do toulce bylo přidáno {amount} šípů.");
+        }
+
+        public void removeArrow(int amount)
+        {   
+            if (AmountOfArrows <= amount)
+            {
+                AmountOfArrows = 0;
+                Console.WriteLine("Z toulce odebrány všechny šípy");
+            } else
+            {
+                AmountOfArrows -= amount;
+                Console.WriteLine($"Z toulce odebráno {amount} šípů. Zůstalo mi v toulci {AmountOfArrows} šípů.");
+            }            
+        }
+
+        public void getAmountOfArrows() 
+        {
+            Console.WriteLine($"V toulci mám {AmountOfArrows} šípů.");
+        }
+
     }
 }
